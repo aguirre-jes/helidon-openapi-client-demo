@@ -36,3 +36,6 @@ nb-configuration.xml
 
 # Helidon
 .helidon
+
+# DS_Store
+.DS_Store
