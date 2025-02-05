@@ -6,6 +6,7 @@ This repository demonstrates how to use Helidon MP 4.1.6 alongside the OpenAPI G
 
 ## Motivation
 
+![Synchronous Call](img/simple-diagram.png)
 In modern application development, integrating multiple APIs is a common challenge. Creating and maintaining API clients manually can be tedious and error-prone. The OpenAPI Generator simplifies this process by automatically generating client code based on OpenAPI specifications, ensuring consistency and reducing development effort.
 
 This project provides two sample Helidon MP services that demonstrate:
