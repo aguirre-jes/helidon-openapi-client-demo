@@ -1,0 +1,8 @@
+docs/DefaultApi.md
+docs/Message.md
+src/main/java/io/helidon/examples/openapigen/mp/client/JavaTimeFormatter.java
+src/main/java/io/helidon/examples/openapigen/mp/client/RFC3339DateFormat.java
+src/main/java/io/helidon/examples/openapigen/mp/client/api/ApiException.java
+src/main/java/io/helidon/examples/openapigen/mp/client/api/ApiExceptionMapper.java
+src/main/java/io/helidon/examples/openapigen/mp/client/api/DefaultApi.java
+src/main/java/io/helidon/examples/openapigen/mp/client/model/Message.java
