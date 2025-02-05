@@ -153,6 +153,8 @@ The OpenAPI Generator Maven plugin (`openapi-generator-maven-plugin`) is a power
 
 When executed, this configuration generates type-safe client code, API models, and supporting files. The generated client is added to the project's source root, making it immediately usable in your application.
 
+[Helidon OpenAPI Generator Usage](https://helidon.io/docs/v4/mp/openapi/openapi-generator#usage-section) for detailed usage instructions.
+
 ## Prerequisites
 
 - **JDK 21** or later
