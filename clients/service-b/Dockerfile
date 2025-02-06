@@ -36,4 +36,4 @@ COPY --from=build /helidon/target/libs ./libs
 
 CMD ["java", "-jar", "service-b.jar"]
 
-EXPOSE 8080
+EXPOSE 8081
