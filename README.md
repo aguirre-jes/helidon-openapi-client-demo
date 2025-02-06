@@ -167,7 +167,7 @@ When executed, this configuration generates type-safe client code, API models, a
 The repository contains two main modules:
 
 1. **`service-a`**: A Helidon MP service exposing a REST API.
-2. **`clients/service-b`**: A Helidon MP service that consumes `service-a`'s API using a client generated with the OpenAPI Generator plugin.
+2. **`clients/service-b`**: A Helidon MP service that consumes `service-a` API using a client generated with the OpenAPI Generator plugin.
 
 ## How to Use This Repository
 
@@ -233,7 +233,7 @@ cd service-b
 mvn clean package
 ```
 
-This will generate a client SDK in the `target/generated-sources/openapi` directory, which can be used to interact with `service-a`'s API.
+This will generate a client SDK in the `target/generated-sources/openapi` directory, which can be used to interact with `service-a API.
 
 ### 5. Testing Integration
 
@@ -254,7 +254,7 @@ By using the OpenAPI Generator Maven plugin, developers can:
 - Ensure high-quality, maintainable, and consistent client implementations.
 - Reduce the risk of integration errors due to misaligned API contracts.
 
-In this demo, `service-b` acts as a consumer of `service-a`'s API. The generated client abstracts all HTTP communication, allowing developers to focus on business logic rather than low-level integration details.
+In this demo, `service-b` acts as a consumer of `service-a` API. The generated client abstracts all HTTP communication, allowing developers to focus on business logic rather than low-level integration details.
 
 ## Contributing
 
