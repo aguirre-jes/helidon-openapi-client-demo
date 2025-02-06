@@ -230,7 +230,7 @@ The OpenAPI Generator Maven plugin is configured in the `pom.xml` of `service-b`
 
 ```bash
 cd service-b
-mvn openapi-generator:generate
+mvn clean package
 ```
 
 This will generate a client SDK in the `target/generated-sources/openapi` directory, which can be used to interact with `service-a`'s API.
